@@ -8,3 +8,4 @@ http.createServer(function (req, res) {
 
 console.log('> http server has started on port 8000 (ipv4 and ipv6)!');
 console.log('> arguments: ', process.argv);
+console.log('> env: ', process.env);
